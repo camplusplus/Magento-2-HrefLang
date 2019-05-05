@@ -1,0 +1,22 @@
+{
+    "name": "camplus2/module-hreflang",
+    "description": "",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "camplus2@gmail.com",
+            "name": "Sasa Paunkovic"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Camplus2\\HrefLang\\": ""
+        }
+    }
+}
